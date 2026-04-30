@@ -330,6 +330,13 @@ Benefits:
 * [Customer distribution by city](sql/customer_distribution_by_city.sql)
 * [Top product categories by revenue](sql/top_product_categories_by_revenue.sql)
 
+
+
+## Example Query Result 
+Belown is an example of a query executed in Amazon Athena:
+![Query Result](docs/query_result.png)
+
+
 ---
 
 
