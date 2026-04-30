@@ -209,15 +209,9 @@ Benefits:
 
 ---
 
-## 📂 SQL Queries
 
-* [Top cities by revenue](sql/top_cities_by_revenue.sql)
-* [Average order value (AOV)](sql/average_order_value.sql)
-* [Total orders by city](sql/total_orders_by_city.sql)
-* [Customer distribution by city](sql/customer_distribution_by_city.sql)
-* [Top product categories by revenue](sql/top_product_categories_by_revenue.sql)
 
----
+
 # Olist Data Engineering Project
 
 ## 📌 Overview
