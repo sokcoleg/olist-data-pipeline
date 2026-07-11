@@ -1,4 +1,4 @@
-# Olist Data Engineering Project
+# E-Commerce Data Engineering Project
 
 ##  Overview
 
