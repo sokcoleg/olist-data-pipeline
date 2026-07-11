@@ -1,6 +1,6 @@
 # Olist Data Engineering Project
 
-## 📌 Overview
+##  Overview
 
 This project demonstrates an end-to-end data pipeline built on AWS to transform raw e-commerce data into an analytics-ready dataset using a star schema approach.
 
@@ -8,7 +8,7 @@ The pipeline processes transactional data from the Olist dataset and prepares it
 
 ---
 
-## 📥 Data Source
+##  Data Source
 
 The dataset used in this project is the Olist Brazilian E-commerce dataset, which includes information about:
 
@@ -20,13 +20,13 @@ The dataset used in this project is the Olist Brazilian E-commerce dataset, whic
 
 ---
 
-## 🏗 Architecture
+##  Architecture
 
 Raw data → Amazon S3 → AWS Glue (ETL) → Curated Layer → Amazon Athena → Analytics Layer (Star Schema)
 
 ---
 
-## 🏗 Architecture Diagram
+##  Architecture Diagram
 
 ```mermaid
 flowchart LR
@@ -40,7 +40,7 @@ flowchart LR
 
 ---
 
-## 🧱 Data Layers
+##  Data Layers
 
 * **Raw Layer**
   Stores original, unprocessed data in Amazon S3.
@@ -53,7 +53,7 @@ flowchart LR
 
 ---
 
-## ⚙️ Data Processing
+##  Data Processing
 
 Data ingestion and transformation were performed using AWS Glue ETL jobs.
 
@@ -66,7 +66,7 @@ Main transformations:
 
 ---
 
-## 🔄 AWS Glue ETL Jobs
+##  AWS Glue ETL Jobs
 
 The curated layer was created using AWS Glue ETL jobs. Each job processes a specific dataset and writes optimized Parquet data back to Amazon S3.
 
@@ -102,7 +102,7 @@ The curated layer was created using AWS Glue ETL jobs. Each job processes a spec
 
 ---
 
-## 🧩 Partitioning Strategy
+##  Partitioning Strategy
 
 The orders dataset in the curated layer is partitioned by:
 
@@ -117,7 +117,7 @@ Benefits:
 
 ---
 
-## 📊 Data Model
+##  Data Model
 
 ### Fact Table
 
@@ -145,7 +145,7 @@ Benefits:
 
 ---
 
-## 🧠 Data Modeling Approach
+##  Data Modeling Approach
 
 A star schema was implemented to:
 
@@ -159,7 +159,7 @@ Key principle:
 
 ---
 
-## ⚙️ Technologies Used
+##  Technologies Used
 
 * Amazon S3
 * AWS Glue
@@ -170,7 +170,7 @@ Key principle:
 
 
 
-## 📂 SQL Queries Examples
+##  SQL Queries Examples
 
 * [Top cities by revenue](sql/top_cities_by_revenue.sql)
 * [Average order value (AOV)](sql/average_order_value.sql)
@@ -180,7 +180,7 @@ Key principle:
 
 ---
 
-## 📸 Example Query Result
+##  Example Query Result
 
 Below is an example of a query executed in Amazon Athena:
 
@@ -188,7 +188,7 @@ Below is an example of a query executed in Amazon Athena:
 
 ---
 
-## 🚀 Key Learnings
+##  Key Learnings
 
 * Built a layered data architecture (raw → curated → analytics)
 * Designed and implemented a star schema
